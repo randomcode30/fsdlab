@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Event</title>
+</head>
+<body>
+    <h2>Create Event</h2>
+    <form action="/create" method = "POST">
+        <input type="text" name="name" placeholder="Event Name" required><br>
+        <input type="date" name="date" required><br>
+        <input type="text" name="location" placeholder="Location" required><br>
+        <button type="submit">Add Event</button>
+    </form>
+    <br>
+    <a href="/events">View All Events</a>
+</body>
+</html>
